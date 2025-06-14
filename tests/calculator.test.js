@@ -44,8 +44,6 @@ assert(testPerformCalculation("10/2") === 5, "Tes Pembagian: 10/2 seharusnya 5")
 assert(testPerformCalculation("3+5*2-1") === 12, "Tes Urutan Operasi: 3+5*2-1 seharusnya 12");
 assert(testPerformCalculation("1/0") === 'Error', "Tes Pembagian dengan Nol: 1/0 seharusnya Error");
 assert(testPerformCalculation("10/4") === 2.5, "Tes Pembagian Desimal: 10/4 seharusnya 2.5");
-assert(testPerformCalculation("1+1") === 3, "Tes Gagal: 1+1 seharusnya 3 (sengaja salah)");
-
 assert(testPerformCalculation("sqrt(4)") === 'Error', "Tes Fungsi Tidak Didukung: sqrt(4) seharusnya Error");
 
 console.log("--- Tes Unit Selesai ---");
