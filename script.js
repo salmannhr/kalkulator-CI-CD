@@ -89,5 +89,3 @@ module.exports = { performCalculation };
 
 }
 
-
-let hasilYangTidakDipakai = performCalculation("2+2");
